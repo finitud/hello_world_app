@@ -1,5 +1,5 @@
 require "sinatra"
 
 get "/" do
-  "Hello #{ENV["WHO"]}"
+  "#{Time.now} - Hello #{ENV["WHO"]}"
 end
